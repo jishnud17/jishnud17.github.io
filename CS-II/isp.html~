@@ -1,0 +1,33 @@
+<!DOCTYPE html> <html lang="en">
+ 
+  <title> Digital Portfolio</title>
+   <link rel="stylesheet" href="style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap" rel="stylesheet">
+  
+ <button type="button" onclick="window.location.href = 'index.html';">About Me</button><button onclick="window.location.href = 'isp.html';">ISP</button><button onclick="window.location.href = 'classes.html';">My Classes</button><button onclick="window.location.href = 'fingerprints.html';">Fingerprint</button><button type="button" onclick="window.location.href = 'AI Sentience.html';">AI Sentience</button>
+  
+
+
+
+   
+
+    <p>
+
+  <h2> Spring 2022 ISP: </h2>
+    <br/> <br/> My team's ISP was two games Madlibs and Trivia, both games having different genres or types. My team was inspired by similar games we played when we were younger which required creativity for MadLibs and good knowledge for trivia. At first we expected to just make a MadLibs but then we decided to also make a trivia game. Another thing that did not go to plan was the number of MadLibs stories we ended up making 9 compared to the 3 we were originally going to do. But overall once we came up with a concept our team stuck with it.  
+
+    <p>
+      <img src="ISP1.png" title="ISP 1"	width="800" height="300"   >
+<br/>
+      <br/>    In this piece you can see MadLibs story with variables in it to fill it. Beneath it is a choices where the user can pick a genre with else if statements and a randomizer that randomly gives the user a genre of madlibs.
+      <br/> <br/>
+ <img src="ISP2.png" title="ISP 2" width="800" height="300"   >  <br/>   <br/> This next part is for the trivia game where it stores the correct answers to the questions in an array. Then it asks the question and prints a different message depending on if its wrong or right. Then it calculates points based on the number of correct answers.
+</p>
+
+
+  </body>
+
+
+  </html>
