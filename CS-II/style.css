@@ -1,6 +1,6 @@
 body {
-    background-color: #3E497A ;
-    color: #F1D00A ;
+    background-color: #622727 ;
+    color: #FFD700 ;
     font : 22px Comfortaa, sans-serif;
 
     margin-left: auto;
@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    text-align: center
+    text-align: left
 }
 button {
     border: 0px;
