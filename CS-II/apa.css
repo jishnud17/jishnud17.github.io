@@ -2,10 +2,9 @@ body {
     background-color: #3E497A;
 
     margin-left: auto;
-    margin-right: auto ;
-    width: 60% ;
+    margin-right: auto;
+    width: 60%;
     display: block
-
 }
 
 h1 {
@@ -28,14 +27,14 @@ h3 {
     text-align: left;
     font-size: 14px;
     font-family: 'EB Garamond', serif;
- text-indent: 2%;
+    text-indent: 2%;
 }
 
 h4 {
     color: #FFD700;
     text-align: left;
     font-weight: bold;
-   
+
     font-family: 'EB Garamond', serif;
     font-size: 16px;
 }
@@ -46,10 +45,11 @@ h5 {
     text-align: left;
     font-size: 18px;
     font-family: 'EB Garamond', serif;
-   }  
+}
+
 .hangingindent {
-    padding-left: 22px ;
-    text-indent: -22px ;
+    padding-left: 22px;
+    text-indent: -22px;
 }
 
 p {
@@ -67,8 +67,9 @@ img {
     width: 50%;
     display: block;
 }
+
 button {
     border: 0px;
     padding: 5px;
-    background-color:  #F0F0F0;
+    background-color: #F0F0F0;
 }
