@@ -1,11 +1,10 @@
-
 .header {
-    width: 100% ;
-    
+    width: 100%;
+
     text-align: center;
-    background: black ;
-    color: #FFD700 ;
-    font-size: 30px ;
+    background: black;
+    color: #FFD700;
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,8 +13,9 @@
 body {
     background-color: #3E497A;
     color: #FFD700;
-   
+
 }
+
 .main {
     width: 60%;
     margin-left: auto;
@@ -87,7 +87,7 @@ img {
 
 button {
     border: 0px;
-    padding: 5px ;
+    padding: 5px;
     background-color: black;
     color: #FFD700;
     font-size: 20px;
