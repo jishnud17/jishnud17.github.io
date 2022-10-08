@@ -16,7 +16,9 @@ body {
 
 
 }
-
+link {
+    color: whitesmoke;
+}
 subhead {
     font-weight: bold;
     font-size: 25px;
