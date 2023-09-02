@@ -89,15 +89,17 @@
       the smallest value is at the root. Think of it as organizing items like a priority queue, where the biggest (or
       smallest) item is dealt with first, and this process continues.
     </p>
-    <h2>Example with cards (assume face cards are 11, 12, and 13):</h2>
-    <p>
-      First, you bring the largest card (13) to the top. Then put the biggest card into a separate sorted stack. Then
-      find
-      the next biggest number (12) and put it at the top of the deck. Then put in the next biggest number after the
-      largest in the other deck. Keep doing this until the unsorted deck is empty, and the sorted deck has all cards in
-      order. Note: This can also be done by finding the smallest number instead of the biggest. The concept remains the
-      same.
-    </p>
+    <h1>Example with cards (assume face cards are 11, 12, and 13):
+    </h1>
+  <ol>
+      <li>First, you bring the largest card (13) to the top.</li>
+      <li>Then put the biggest card into a separate sorted stack.</li>
+      <li>Then find the next biggest number (12) and put it at the top of the deck.</li>
+      <li>Then put in the next biggest number after the largest in the other deck.</li>
+      <li>Keep doing this until the unsorted deck is empty, and the sorted deck has all cards in order.</li>
+  </ol>
+  <p>Note: This can also be done by finding the smallest number instead of the biggest. The concept remains the same.
+</p>
 
     <h2>Time Complexity</h2>
     <p>
