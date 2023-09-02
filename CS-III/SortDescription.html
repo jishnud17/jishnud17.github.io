@@ -54,17 +54,14 @@
   </p>
   <h2>Example with cards (assume face cards are 11, 12, and 13):</h2>
   <p>
-    First, you pick a card, it doesn't matter which one. This is the pivot. Now, you look at each of the other cards and
-    decide whether they are smaller or bigger than the pivot. You create two separate groups: one for the cards smaller
-    than the pivot and another for the cards larger than the pivot. Note: if your pivot is equal to another element in
-    the array, that element could go to either group; in the end, the array will still be sorted. You then take each of
-    these two groups and apply the same process to them. You pick a new pivot for each group and divide the cards in
-    that group into even smaller groups - one for smaller cards and one for larger cards. You keep doing this process of
-    choosing a pivot, dividing the cards, and sorting them into smaller groups until every group has only one card. At
-    this point, every card is in its correct place because you've compared and arranged them multiple times. Finally,
-    you gather all the cards back together in order. The ones in the smaller groups come before the pivot, and the ones
-    in the larger groups come after. Now, all the cards are sorted from smallest to largest.
-  </p>
+    Example with cards (assume face cards are 11, 12, and 13):
+</p>
+<ol>
+    <li>First, you take your deck of cards and split it into two equal halves. Now, you have two smaller stacks.</li>
+    <li>Next, keep splitting up each smaller stack until all of your stacks contain one card each.</li>
+    <li>Then, you look at the first card in each small stack and the one next to it. Whatever’s smaller goes first in a new deck. The other first card gets evaluated with the next card. You keep doing this until you have successfully ordered all the cards in both stacks in a new stack. You end up with a larger sorted stack.</li>
+    <li>Repeat: You keep doing these steps - sorting and merging - until all the cards are in a single pile, and they're in the correct order from smallest to largest.</li>
+</ol>
   <h2>Example:</h2>
   <p>1,5,3,4,6 Pivot 4<br>
     1,3 and 5,6 Pivots: 3 and 5<br>
