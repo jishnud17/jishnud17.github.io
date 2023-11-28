@@ -1,11 +1,11 @@
 .header {
-    display: flex;
-    flex-direction: column;
     background-color: #3E497A;
     padding: 20px;
 }
 
 .header button {
+    display: block;
+    width: 100%;
     margin-bottom: 10px;
     color: #FFD700;
     border: none;
@@ -13,6 +13,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
 body {
     background-color: #3E497A;
     color: #FFD700;
