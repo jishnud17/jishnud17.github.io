@@ -18,7 +18,7 @@
     border: none;
     background-color: transparent;
     text-align: left;
-    width: 100%;
+    width: 90%;
     cursor: pointer;
   }
 
@@ -27,7 +27,7 @@
   }
 
 body {
-    background-color: gray;
+    background-color: #3E497A;
     color: black;
 
 }
