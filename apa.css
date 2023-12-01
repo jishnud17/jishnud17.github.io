@@ -3,7 +3,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: #3E497A;
     position: fixed;
     height: 100%;
@@ -27,8 +27,8 @@
   }
 
 body {
-    background-color: #3E497A;
-    color: #FFD700;
+    background-color: gray;
+    color: black;
 
 }
 
